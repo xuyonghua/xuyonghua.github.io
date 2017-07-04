@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xuyonghua.github.io/"/>
-  <updated>2017-07-04T01:46:05.131Z</updated>
+  <updated>2017-07-04T09:29:26.778Z</updated>
   <id>http://xuyonghua.github.io/</id>
   
   <author>
@@ -20,12 +20,18 @@
     <link href="http://xuyonghua.github.io/2017/07/04/My-New-Post/"/>
     <id>http://xuyonghua.github.io/2017/07/04/My-New-Post/</id>
     <published>2017-07-04T01:46:05.000Z</published>
-    <updated>2017-07-04T01:46:05.131Z</updated>
+    <updated>2017-07-04T09:29:26.778Z</updated>
     
     <summary type="html">
     
     </summary>
     
+      <category term="Hexo�̳�" scheme="http://xuyonghua.github.io/categories/Hexo%EF%BF%BD%CC%B3%EF%BF%BD/"/>
+    
+    
+      <category term="վ���" scheme="http://xuyonghua.github.io/tags/%D5%BE%EF%BF%BD%EF%BF%BD%EF%BF%BD%EE%BD%A8/"/>
+    
+      <category term="Hexo" scheme="http://xuyonghua.github.io/tags/Hexo/"/>
     
   </entry>
   
@@ -34,7 +40,7 @@
     <link href="http://xuyonghua.github.io/2017/07/03/hello-world/"/>
     <id>http://xuyonghua.github.io/2017/07/03/hello-world/</id>
     <published>2017-07-03T09:01:20.476Z</published>
-    <updated>2017-07-04T09:21:46.272Z</updated>
+    <updated>2017-07-04T09:29:21.378Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.<br><a id="more"></a></p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
@@ -53,6 +59,12 @@
     
     </summary>
     
+      <category term="Hexo�̳�" scheme="http://xuyonghua.github.io/categories/Hexo%EF%BF%BD%CC%B3%EF%BF%BD/"/>
+    
+    
+      <category term="վ���" scheme="http://xuyonghua.github.io/tags/%D5%BE%EF%BF%BD%EF%BF%BD%EF%BF%BD%EE%BD%A8/"/>
+    
+      <category term="Hexo" scheme="http://xuyonghua.github.io/tags/Hexo/"/>
     
   </entry>
   

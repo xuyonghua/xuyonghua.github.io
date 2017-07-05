@@ -285,7 +285,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://xuyonghua.github.io/2017/07/04/My-New-Post/">
+    <link itemprop="mainEntityOfPage" href="http://xuyonghua.github.io/2017/07/04/Hexo站点搭建问题/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="xuyonghua">
@@ -304,7 +304,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/07/04/My-New-Post/" itemprop="url">My New Post</a></h1>
+                <a class="post-title-link" href="/2017/07/04/Hexo站点搭建问题/" itemprop="url">Hexo站点搭建问题(公益404,分类和标签)</a></h1>
         
 
         <div class="post-meta">
@@ -375,7 +375,12 @@
       
         
           
-            
+            <h2 id="Hexo教程"><a href="#Hexo教程" class="headerlink" title="Hexo教程"></a>Hexo教程</h2><h3 id="搭建公益404"><a href="#搭建公益404" class="headerlink" title="搭建公益404"></a>搭建公益404</h3><p>在source目录下新建一个“404.html”文件<br>添加<a href="http://www.qq.com/404/" target="_blank" rel="external">腾讯公益404</a>提供的公益404接入代码<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">&lt;!DOCTYPE HTML&gt;</div><div class="line">&lt;html&gt;</div><div class="line">&lt;head&gt;</div><div class="line">&lt;meta http-equiv=<span class="string">"content-type"</span> content=<span class="string">"text/html;charset=utf-8;"</span>/&gt;</div><div class="line">&lt;meta http-equiv=<span class="string">"X-UA-Compatible"</span> content=<span class="string">"IE=edge,chrome=1"</span> /&gt;</div><div class="line">&lt;meta name=<span class="string">"robots"</span> content=<span class="string">"all"</span> /&gt;</div><div class="line">&lt;meta name=<span class="string">"robots"</span> content=<span class="string">"index,follow"</span>/&gt;</div><div class="line">&lt;title&gt;公益404页面 // xuyonghua的博客&lt;/title&gt;</div><div class="line">&lt;/head&gt;</div><div class="line">&lt;body&gt;</div><div class="line">&lt;script <span class="built_in">type</span>=<span class="string">"text/javascript"</span> src=<span class="string">"//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js"</span> charset=<span class="string">"utf-8"</span> homePageUrl=<span class="string">"https://xuyonghua.github.io/"</span> homePageName=<span class="string">"xuyonghua的博客"</span>&gt;&lt;/script&gt;</div><div class="line">&lt;/body&gt;</div><div class="line">&lt;/html&gt;</div></pre></td></tr></table></figure></p>
+<h3 id="分类和标签"><a href="#分类和标签" class="headerlink" title="分类和标签"></a>分类和标签</h3><h4 id="开启menu"><a href="#开启menu" class="headerlink" title="开启menu"></a>开启menu</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">menu:</div><div class="line">  home: /</div><div class="line">  categories: /categories/</div><div class="line">  archives: /archives/</div><div class="line">  tags: /tags/</div><div class="line">  about: /about/</div><div class="line">  commonweal: /404.html</div></pre></td></tr></table></figure>
+<h4 id="新建分类和标签"><a href="#新建分类和标签" class="headerlink" title="新建分类和标签"></a>新建分类和标签</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new page categories</div></pre></td></tr></table></figure>
+<p>打开\source\categories\index.md修改type<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">type</span>: <span class="string">"categories"</span></div></pre></td></tr></table></figure></p>
+<h4 id="給博客添加分类和标签"><a href="#給博客添加分类和标签" class="headerlink" title="給博客添加分类和标签"></a>給博客添加分类和标签</h4><p>打开博客md文件在头部加上分类和标签名称<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">categories: <span class="string">"Hexo教程"</span></div><div class="line">tags: </div><div class="line">     - 站点搭建</div><div class="line">     - Hexo</div></pre></td></tr></table></figure></p>
+
           
         
       
